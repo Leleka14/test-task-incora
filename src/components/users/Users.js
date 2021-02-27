@@ -42,7 +42,7 @@ const UsersComponent = (props) => {
 
     return(
         <div className="container">
-            <h3>Users</h3>
+            <h2 className="users-header">Users</h2>
             <RenderUsers/>
         </div>
     )

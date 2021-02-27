@@ -14,6 +14,10 @@
     transition: all .2s ease-in-out;
 }
 
+.users-header{
+    font-family: cursive;
+}
+
 .post{
     padding: 5px 20px;
     margin: 10px 20px;
