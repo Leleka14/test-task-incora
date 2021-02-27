@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.username{
+    display: inline;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name{
+    padding-left: 10px;
+    display: inline;
+    color: grey;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.user{
+    border-bottom: 2px solid grey;  
+    margin: 10px 20px;
+    transition: all .2s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.post{
+    padding: 5px 20px;
+    margin: 10px 20px;
+    transition: all .2s ease-in-out;
+    border-bottom: 1px solid lightgrey;
 }
 
-.App-link {
-  color: #61dafb;
+.detailed-user{
+    width: fit-content;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.detailed-user-name{
+    font-family: "Fira Sans", sans-serif;
+}
+
+.detailed-user-body{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.detailed-post{
+	border: 2px solid black;
+	padding: 10px;
+	transition: all .3s ease-in-out;
+	border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.detailed-post-body{
+    font-family: Georgia, sans-serif;
+}
+
+.comment{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.post:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.user:hover{
+    transform: scale(1.02);
 }

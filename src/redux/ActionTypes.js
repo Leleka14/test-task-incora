@@ -1,0 +1,17 @@
+export const LOAD_USERS = 'LOAD_USERS';
+export const USERS_FAILED = 'USERS_FAILED';
+export const LOAD_SINGLE_USER = 'LOAD_SINGLE_USER';
+export const SINGLE_USER_FAILED = 'SINGLE_USER_FAILED';
+
+export const LOAD_POSTS = 'LOAD_POSTS';
+export const POSTS_FAILED = 'POSTS_FAILED';
+export const LOAD_SINGLE_POST = 'LOAD_SINGLE_POST';
+export const SINGLE_POST_FAILED = 'SINGLE_POST_FAILED';
+export const ADD_POST = 'ADD_POST';
+
+export const LOAD_COMMENTS = 'LOAD_COMMENTS';
+export const COMMENTS_FAILED = 'COMMENTS_FAILED';
+
+export const EDIT_POST = 'EDIT_POST';
+export const EDIT_POST_FAILED = 'EDIT_POST_FAILED';
+export const DELETE_POST = 'DELETE_POST';
