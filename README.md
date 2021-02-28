@@ -1,5 +1,5 @@
 # Test-Task-Incora
-# Deployed on https://leleka14.github.io/test-task-incora/
+# Published on https://leleka14.github.io/test-task-incora/
 
 ## Table of contents
 * [General info](#general-info)
