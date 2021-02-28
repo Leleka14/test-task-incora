@@ -7,7 +7,7 @@ const DetailedUserComponent = props => {
             <div className="detailed-user">
                 <h3 className="detailed-user-name">{props.user.user.name}</h3>
                 <div className="detailed-user-body">
-                    <h6>{props.user.user.username}</h6>
+                    <h6>@{props.user.user.username}</h6>
                     <div>Email: {props.user.user.email}</div>
                     <div>Phone: {props.user.user.phone}</div>
                     <div>City: {props.user.user.address.city}</div>
